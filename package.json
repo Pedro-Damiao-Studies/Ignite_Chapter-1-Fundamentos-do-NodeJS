@@ -5,7 +5,13 @@
   "repository": "https://github.com/Pedro-Damiao-Studies/Ignite_Chapter-1-Fundamentos-do-NodeJS.git",
   "author": "Pedro Henrique Ferreira <pedro@damiao.dev.br>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
